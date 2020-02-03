@@ -3,17 +3,17 @@ import PropTypes from 'prop-types';
 
 const InfoItem = ({ infoitem }) => (
   <section>
-    <h2>{infoitem.artist}</h2>
-    <h3>{infoitem.title}</h3>
-    <p>{infoitem.price}</p>
+    <h2>{infoitem.infoartist}</h2>
+    <h3>{infoitem.infotitle}</h3>
+    <p>{infoitem.infoprice}</p>
   </section>
 );
 
 InfoItem.propTypes = {
   infoitem: PropTypes.shape({
-    artist: PropTypes.string.isRequired,
-    title: PropTypes.string.isRequired,
-    price: PropTypes.string.isRequired
+    infoartist: PropTypes.string.isRequired,
+    infotitle: PropTypes.string.isRequired,
+    infoprice: PropTypes.string.isRequired
   }).isRequired
 };
 

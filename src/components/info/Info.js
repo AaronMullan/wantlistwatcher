@@ -26,5 +26,7 @@ Info.propTypes = {
     artist: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
     price: PropTypes.string.isRequired 
-  }))
+  })).isRequired
 };
+
+export default Info;
