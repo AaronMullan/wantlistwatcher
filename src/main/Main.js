@@ -5,13 +5,13 @@ import Info from '../components/info/Info';
 
 export default class Container extends Component {
   state ={
-    artist: 'Can',
-    title: 'Ege Bamyasi',
-    release_id: '1292887',
+    artist: '',
+    title: '',
+    release_id: '',
     wantlist: [],
-    infoartist: 'Velvet Underground',
-    infotitle: 'The Quine Tapes',
-    infoprice: '$50',
+    infoartist: '',
+    infotitle: '',
+    infoprice: '',
     info: []
   }
 
